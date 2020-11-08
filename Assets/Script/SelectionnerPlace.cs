@@ -11,10 +11,6 @@ public class SelectionnerPlace : MonoBehaviour
 	public Vector3 size;
 
 
-	private void Awake()
-	{
-		Debug.Log("Size rect : " +  SpriteObj.GetComponent<SpriteRenderer>().sprite.rect + "\nVeritable size : " + (SpriteObj.GetComponent<SpriteRenderer>().sprite.rect.width * SpriteObj.transform.lossyScale.x) + "\n size : " + SpriteObj.GetComponent<SpriteRenderer>().sprite.rect.size);
-	}
 
 	private void Update()
 	{

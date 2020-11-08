@@ -18,10 +18,7 @@ public class ControllerPlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-		Debug.Log(InputModule.input.GetAxisRaw(InputModule.horizontalAxis));
-
         Deplacement();
-        
     }
 
     private void Deplacement()
